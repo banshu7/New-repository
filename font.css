@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ZhanKuKuaiLe';
+    src: url('https://cdn.jsdelivr.net/gh/googlefonts/noto-cjk@main/Sans/Variable/TTF/NotoSansCJKsc-VF.ttf') format('truetype');
+    /* 备用链接 */
+    src: url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
