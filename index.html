@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>林耶耶的暴富计划</title>
+            <!-- 使用 Google 字体的站酷快乐体 -->
+            <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        </head>
+    </head>
+<body>
+    <div class="container">
+        <h1>林耶耶的暴富计划</h1>
+        
+        <div class="today-lottery">
+            <h2>今日推荐号码 - <span id="lotteryType"></span></h2>
+            <div id="recommendNumbers" class="number-list"></div>
+            <button onclick="generateNumbers()">刷新推荐号码</button>
+        </div>
+
+        <div id="numberStats" class="stats-section">
+            <h3>号码分析</h3>
+            <div id="analysisResult"></div>
+        </div>
+
+        <div class="history">
+            <h2>近期开奖记录</h2>
+            <div id="historyNumbers" class="history-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
